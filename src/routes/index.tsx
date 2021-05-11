@@ -2,13 +2,11 @@ import React from 'react';
 
 import { Switch, Route } from 'react-router-dom';
 
-import Dashboard from '../pages/dashboard';
-import Repository from '../pages/repository';
+import Questions from '../pages/questions';
 
 const Routes: React.FC = () => (
   <Switch>
-    <Route path="/" exact component={Dashboard} />
-    <Route path="/repository" component={Repository} />
+    <Route path="/" component={Questions} />
   </Switch>
 )
 
