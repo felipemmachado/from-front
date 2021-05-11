@@ -7,10 +7,10 @@ import { CgRadioCheck } from 'react-icons/cg';
 
 import logoImg from '../../assets/logo.png'
 
-const Questions: React.FC = () => (
+const Forms: React.FC = () => (
   <>
     <Logo src={logoImg}></Logo>
-    <Title>Perguntas</Title>
+    <Title>Formulários</Title>
     <Button>Nova</Button>
     <QuestionsLists>
       <a href="teste">
@@ -45,4 +45,4 @@ const Questions: React.FC = () => (
   </>
 )
 
-export default Questions;
+export default Forms;
